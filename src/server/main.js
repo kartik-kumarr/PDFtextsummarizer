@@ -9,6 +9,7 @@ import ViteExpress from "vite-express";
 import ollama from 'ollama';
 import bodyParser from 'body-parser';
 const app = express();
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -46,6 +47,7 @@ async function chatWithModel(modelName, prompt) {
         res.status(500).send('Error processing text.');
     }
 });
+
 app.post('/Textprompt', async(req, res) => {
     const text = "Generate a concise summary of following text, and highlight key insights in paragraph from the following text."+ req.body.text;
     try {

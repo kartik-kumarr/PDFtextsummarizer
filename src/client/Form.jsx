@@ -45,7 +45,10 @@ function PDFParserAndOutput() {
 
     async function handleSubmitText(event) {
         event.preventDefault();
-
+        if(!textAreaValue){
+            console.log("Please enter a text prompt!")
+            return;
+        }
         try {
             // Submit text from textarea to backend
             const submitResponse = await axios.post('/Textprompt', { text: textAreaValue });
