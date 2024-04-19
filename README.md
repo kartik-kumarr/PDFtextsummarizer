@@ -42,6 +42,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install Ollama
 Follow the instructions given in the [github page](https://github.com/ollama/ollama) as per your system. Then install both LLamba2 and Phi2 using following commands:
+
       $ ollama run llamba2
       $ ollama run phi
 
