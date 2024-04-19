@@ -1,0 +1,118 @@
+/************ Default Css ************/
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center;
+  background-size: cover;
+}
+
+.cover-container {
+  max-width: 60vw;
+}
+
+.nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 1rem;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5)
+}
+
+.nav-link.active {
+  color: white;
+  border-bottom-color: antiquewhite;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+}
+
+
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+
+.box {
+  width: 45%;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.box h2 {
+  margin-top: 1px;
+}
+
+.box p {
+  margin-bottom: auto;
+}
+
+.Form {
+  margin-top: 200px;
+  justify-content: center;
+}
+
+.response-textarea {
+  width: 100%;
+  /* Cover the whole area in the box */
+  height: 100%;
+  /* Cover the whole area in the box */
+  background-color: black;
+  /* Black background */
+  color: white;
+  /* White text */
+  resize: none;
+  /* Prevent resizing */
+  border: none;
+  /* Remove border */
+  padding: 10px;
+  /* Add some padding */
+}
