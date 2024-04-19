@@ -1,5 +1,5 @@
 # PDF text summarizer
-A fully functional app to summarize PDFs and compare the output from two LLMs LLamba2 and Microsofts's Phi. 
+A fully functional app to summarize PDFs and compare the output from two LLMs LLamba2 and Microsofts's Phi2. 
 ---
 ## Requirements
 
